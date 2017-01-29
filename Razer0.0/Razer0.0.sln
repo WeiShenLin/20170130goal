@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{D222F487-627C-75F7-C670-36DECDEC11DF}") = "Razer0.0", "Assembly-CSharp.csproj", "{8C530604-3544-F708-1F53-8CEEE7B0EA3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C530604-3544-F708-1F53-8CEEE7B0EA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C530604-3544-F708-1F53-8CEEE7B0EA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C530604-3544-F708-1F53-8CEEE7B0EA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C530604-3544-F708-1F53-8CEEE7B0EA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
