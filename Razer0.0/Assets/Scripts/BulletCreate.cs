@@ -10,7 +10,7 @@ public class BulletCreate : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		BulletInterval = 0.5f;
+		BulletInterval = 0.00001f;
 	}
 	
 	// Update is called once per frame
@@ -21,7 +21,7 @@ public class BulletCreate : MonoBehaviour {
 			Vector3 pos = transform.position;
 			Quaternion rot = transform.rotation;
 			BulletClone = (GameObject)Instantiate(Bullet, pos, rot);//複製子彈並回傳在設定的座標與角度
-			UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(BulletClone, "Assets/Scripts/BulletCreate.cs (24,4)", "BulletState");
+			BulletClone.AddComponent<BulletState>();
 			time = 0;
 		}
 	}
