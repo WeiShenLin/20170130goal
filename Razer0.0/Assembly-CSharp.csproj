@@ -51,7 +51,6 @@
      <Compile Include="Assets\Scripts\BulletState.cs" />
      <Compile Include="Assets\Scripts\MoveController.cs" />
      <Compile Include="Assets\Scripts\NPCState.cs" />
-     <Compile Include="Assets\Scripts\WallState.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>

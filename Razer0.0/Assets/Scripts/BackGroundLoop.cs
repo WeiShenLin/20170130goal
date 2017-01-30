@@ -11,6 +11,6 @@ public class BackGroundLoop : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		GetComponent<Renderer>().material.mainTextureOffset = new Vector2( Time.time * -speed,0);
+		GetComponent<Renderer>().material.mainTextureOffset = new Vector2(Time.time * -speed,0);
 	}
 }

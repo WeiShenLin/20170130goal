@@ -15,5 +15,6 @@ public class BulletState : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.Translate (BulletSpeed,0,0);
+		Destroy (gameObject,1); //子彈在一秒後自動銷毀
 	}
 }
