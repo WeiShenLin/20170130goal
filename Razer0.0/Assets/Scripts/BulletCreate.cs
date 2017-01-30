@@ -10,16 +10,17 @@ public class BulletCreate : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		BulletInterval = 0.00001f;
+		BulletInterval = 0.5f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		time += Time.deltaTime;
-		if (Input.GetKeyDown (KeyCode.Space) && time>BulletInterval) //抓取鍵盤控鍵是否按下與時間是否大於子彈間隔
+		if (Input.GetKey (KeyCode.Space) && time>BulletInterval) //抓取鍵盤控鍵是否按下與時間是否大於子彈間隔
 		{
 			Vector3 pos = transform.position;
 			Quaternion rot = transform.rotation;
+			//Instantiate(Bullet, pos, rot);//複製子彈並回傳在設定的座標與角度
 			BulletClone = (GameObject)Instantiate(Bullet, pos, rot);//複製子彈並回傳在設定的座標與角度
 			BulletClone.AddComponent<BulletState>();
 			time = 0;

@@ -8,12 +8,12 @@ public class BulletState : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		BulletSpeed = 0.1f;
+		BulletSpeed = 1.0f;
 		BulletAtk = 2;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate ( BulletSpeed,0,0);
+		transform.Translate (BulletSpeed,0,0);
 	}
 }

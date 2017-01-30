@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\BackGroundLoop.cs" />
      <Compile Include="Assets\Scripts\BulletCreate.cs" />
      <Compile Include="Assets\Scripts\BulletState.cs" />
+     <Compile Include="Assets\Scripts\MoveController.cs" />
      <Compile Include="Assets\Scripts\NPCState.cs" />
      <Compile Include="Assets\Scripts\WallState.cs" />
  <Reference Include="UnityEngine.Analytics">
