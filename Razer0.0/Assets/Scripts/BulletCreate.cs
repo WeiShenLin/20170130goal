@@ -22,7 +22,7 @@ public class BulletCreate : MonoBehaviour {
 			Quaternion rot = transform.rotation;
 			//Instantiate(Bullet, pos, rot);//複製子彈並回傳在設定的座標與角度
 			BulletClone = (GameObject)Instantiate(Bullet, pos, rot);//複製子彈並回傳在設定的座標與角度
-			BulletClone.AddComponent<BulletState>();
+			BulletClone.AddComponent<BulletState>();//把複製的子彈增加狀態
 			time = 0;
 		}
 	}

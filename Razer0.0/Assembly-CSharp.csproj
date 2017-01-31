@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\BackGroundLoop.cs" />
      <Compile Include="Assets\Scripts\BulletCreate.cs" />
      <Compile Include="Assets\Scripts\BulletState.cs" />
+     <Compile Include="Assets\Scripts\MonsterCreate.cs" />
+     <Compile Include="Assets\Scripts\MonsterState.cs" />
      <Compile Include="Assets\Scripts\MoveController.cs" />
      <Compile Include="Assets\Scripts\NPCState.cs" />
  <Reference Include="UnityEngine.Analytics">
