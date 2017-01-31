@@ -19,11 +19,11 @@ public class MonsterCreate : MonoBehaviour {
 		time += Time.deltaTime;
 		if (time > MonsterInterval) //抓取時間是否大於生怪間隔
 		{
-			//Vector3 pos = new Vector3(4.0f,Random.Range(-3f,3f),0);
-			Vector3 pos = new Vector3(4.0f,3.0f,0);
+			Vector3 pos = new Vector3(4.0f,Random.Range(-3f,3f),0);
+			//Vector3 pos = new Vector3(4.0f,3.0f,0);
 			Quaternion rot = transform.rotation;
-			MonsterClone = (GameObject)Instantiate (Monster);
-			MonsterClone = (GameObject)Instantiate(Monster, pos, rot);//複製怪物並回傳在設定的座標與角度
+			MonsterClone = (GameObject)Instantiate (Monster,pos,Quaternion.identity) as GameObject;
+			//MonsterClone = (GameObject)Instantiate(Monster, pos, rot);//複製怪物並回傳在設定的座標與角度
 			//MonsterClone.transform.SetParent(Monster.transform,false);
 			MonsterClone.AddComponent<NPCState>();//把複製的怪物增加狀態
 			time = 0f;

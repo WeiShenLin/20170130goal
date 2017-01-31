@@ -8,7 +8,7 @@ public class NPCState : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		NPCSpeed = 0.1f;
+		NPCSpeed = 0.01f;
 	}
 	void OnTriggerEnter2D(Collider2D collider){
 		if (collider.tag == "Bullet") 
