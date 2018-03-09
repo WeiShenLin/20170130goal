@@ -10,7 +10,7 @@ public class BulletCreate : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		BulletInterval = 0.5f;
+		BulletInterval = 0.1f;
 	}
 	
 	// Update is called once per frame

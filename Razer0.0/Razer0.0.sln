@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{D222F487-627C-75F7-C670-36DECDEC11DF}") = "Razer0.0", "Assembly-CSharp.csproj", "{8C530604-3544-F708-1F53-8CEEE7B0EA3E}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razer0.0", "Assembly-CSharp.csproj", "{8C530604-3544-F708-1F53-8CEEE7B0EA3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

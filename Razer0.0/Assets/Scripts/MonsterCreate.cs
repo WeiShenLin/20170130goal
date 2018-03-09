@@ -25,7 +25,7 @@ public class MonsterCreate : MonoBehaviour {
 			MonsterClone = (GameObject)Instantiate (Monster,pos,Quaternion.identity) as GameObject;
 			//MonsterClone = (GameObject)Instantiate(Monster, pos, rot);//複製怪物並回傳在設定的座標與角度
 			//MonsterClone.transform.SetParent(Monster.transform,false);
-			MonsterClone.AddComponent<NPCState>();//把複製的怪物增加狀態
+			MonsterClone.AddComponent<MonsterState>();//把複製的怪物增加狀態
 			time = 0f;
 		}
 

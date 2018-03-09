@@ -8,7 +8,7 @@ public class BulletState : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		BulletSpeed = 1.0f;
+		BulletSpeed = 0.5f;
 		BulletAtk = 2;
 	}
 	
