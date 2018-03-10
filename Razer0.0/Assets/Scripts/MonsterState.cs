@@ -25,7 +25,8 @@ public class MonsterState : MonoBehaviour {
 		transform.Translate (-MonsterSpeed, 0,0);
 		if (HP <= 0) {
 			Destroy (gameObject);
-		}
+            //Points.Good_test();
+        }
 		Destroy (gameObject,3);
 	}
 }

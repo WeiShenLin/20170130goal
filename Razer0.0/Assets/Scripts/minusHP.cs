@@ -8,13 +8,16 @@ public class minusHP : MonoBehaviour {
     
     // Use this for initialization
     void Start () {
-		
-	}
-   
+        
+
+    }
+    //public void minus(float HeroHP) {
+    //    HP = HeroHP;
+        
+    //}
 
     // Update is called once per frame
     void Update () {
-        this.transform.localPosition = new Vector3(-100 + 100 * (HP / maxHP),0.0f,0.0f);
-        
-	}
+        this.transform.localPosition = new Vector3(-100 + 100 * (HP / maxHP), 0.0f, 0.0f);
+    }
 }

@@ -13,11 +13,8 @@ public class HeroState : MonoBehaviour {
         if (collider.tag == "Enemy")
         {
             Destroy(collider.gameObject);
-            HP -= MonsterState.MonsterAtk;
+            HP -= MonsterState.MonsterAtk;  
         }
-    }
-    public float getHP() {
-        return this.HP;
     }
     // Update is called once per frame
     void Update () {

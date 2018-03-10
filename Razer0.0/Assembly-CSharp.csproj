@@ -59,6 +59,8 @@
      <Compile Include="Assets\Scripts\MonsterCreate.cs" />
      <Compile Include="Assets\Scripts\MonsterState.cs" />
      <Compile Include="Assets\Scripts\MoveController.cs" />
+     <Compile Include="Assets\Scripts\NPCState.cs" />
+     <Compile Include="Assets\Scripts\Points.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
